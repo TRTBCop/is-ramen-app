@@ -102,15 +102,8 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
+<script lang="ts" setup>
 
-export default defineComponent({
-  name: "HelloWorld",
-  props: {
-    msg: String,
-  },
-});
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -127,6 +120,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #ff00ff;
 }
 </style>
